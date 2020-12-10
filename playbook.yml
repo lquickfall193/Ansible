@@ -1,0 +1,16 @@
+---
+tasks:
+- name: Update all packages to their latest version
+  apt:
+      name: "*"
+      state: latest
+      become: yes
+- name: Install Midnight Commander
+  apt:
+     name: mc
+     state: latest
+     become: yes
+- name: Remove dependencies that are no longer required
+  apt:
+      autoremove: yes
+      become: yes
