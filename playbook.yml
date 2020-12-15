@@ -1,6 +1,6 @@
 ---
 - name: Install programs
-  hosts: '*'
+  hosts: localhost
   become: yes
 
   tasks:
