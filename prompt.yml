@@ -1,0 +1,14 @@
+---
+- name: Prompt Test
+  hosts: localhost
+  become: yes
+  vars_prompt:
+
+   - name: greeting
+     prompt: "Hello there, what is your name?"
+     private: no
+
+  tasks:
+
+   - debug:
+       msg: ' Hello: {{greeting}}'
