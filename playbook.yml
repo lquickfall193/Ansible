@@ -1,6 +1,6 @@
 ---
 - name: Install programs
-  hosts: "Servers"
+  hosts: Servers
   become: yes
 
   tasks:
