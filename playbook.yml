@@ -2,8 +2,8 @@
 - name: Install programs
   hosts: PC
   become: yes
-  become_password: zaq12wsx
-
+  become_password: 'zaq12wsx'
+  
   tasks:
 
   - name: Update all packages to their latest version
