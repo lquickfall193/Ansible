@@ -1,6 +1,6 @@
 ---
 - name: Install programs
-  hosts: serverlocal
+  hosts: test
   
   tasks:
 
