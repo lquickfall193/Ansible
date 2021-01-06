@@ -1,7 +1,6 @@
 ---
 - name: Prompt Test
   hosts: serverlocal
-  become: yes
   vars_prompt:
 
    - name: greeting
