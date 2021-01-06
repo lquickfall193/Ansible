@@ -1,7 +1,6 @@
 ---
 - name: Install programs
   hosts: PC
-  become: yes
   
   tasks:
 
