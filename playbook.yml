@@ -2,7 +2,6 @@
 - name: Install programs
   hosts: PC
   become: yes
-  become_password: 'zaq12wsx'
   
   tasks:
 
