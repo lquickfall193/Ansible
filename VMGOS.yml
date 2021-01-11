@@ -1,6 +1,8 @@
 ---
 - name: Staging OS Update
   hosts: jaguar
+  become: yes
+  become_pass: "Ef%:7\?Wz}nk5q\}"
   
   tasks:
 
