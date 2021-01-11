@@ -2,10 +2,8 @@
 - name: Staging OS Update
   hosts: jaguar
   become: yes
-  vars:
-   version: "2020.12.02"
   
   tasks:
 
   - name: Running the Script
-    command: bash /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh {{version}}
+    command: bash /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh
