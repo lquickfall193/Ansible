@@ -6,5 +6,4 @@
   tasks:
 
   - name: Running the Script
-    command:
-      cmd: /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh
+    command: sh /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh
