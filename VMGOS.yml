@@ -1,6 +1,7 @@
 ---
 - name: Staging OS Update
   hosts: jaguar
+  become: yes
   
   tasks:
 
