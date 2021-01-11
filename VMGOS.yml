@@ -3,7 +3,7 @@
   hosts: jaguar
   become: yes
   vars:
-   - name: version
+   version: version
   
   tasks:
 
