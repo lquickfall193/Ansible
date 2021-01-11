@@ -1,6 +1,7 @@
 ---
 - name: Install programs
-  hosts: panther
+  hosts: jaguar
+  become: yes
   
   tasks:
 
