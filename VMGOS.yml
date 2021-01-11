@@ -1,0 +1,9 @@
+---
+- name: Staging OS Update
+  hosts: jaguar
+  
+  tasks:
+
+  - name: Running the Script
+    command:
+      cmd: /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh
