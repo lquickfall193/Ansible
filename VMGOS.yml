@@ -3,9 +3,9 @@
   hosts: jaguar
   become: yes
   vars:
-   version: version
+   version: v
   
   tasks:
 
   - name: Running the Script
-    command: bash /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh -version {{version}}
+    command: bash /home/devops_ew12k542/docker-folders/VMGOS/loginpublish.sh -v {{version}}
