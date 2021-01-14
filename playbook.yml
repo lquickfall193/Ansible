@@ -1,6 +1,6 @@
 ---
 - name: Install programs
-  hosts: jaguar
+  hosts: localhost
   
   tasks:
 
