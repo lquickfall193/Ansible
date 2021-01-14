@@ -1,6 +1,6 @@
 ---
 - name: Install programs
-  hosts: serverlocal
+  hosts: leopard
   become: yes
   
   tasks:
