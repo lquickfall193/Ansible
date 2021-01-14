@@ -1,6 +1,7 @@
 ---
 - name: Install programs
   hosts: serverlocal
+  become: yes
   
   tasks:
 
